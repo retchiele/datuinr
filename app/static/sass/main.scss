@@ -1,7 +1,13 @@
 // abstracts
 @import "abstracts/mixins";
+@import "abstracts/utilities";
 @import "abstracts/variables";
+
+//base
+@import "base/base";
 
 // layout
 @import "layout/navigation";
 
+//pages
+@import "pages/index";
