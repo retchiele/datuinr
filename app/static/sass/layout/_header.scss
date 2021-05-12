@@ -1,0 +1,30 @@
+.header {
+    height: 85vh;
+    background-image:
+        url(../img/pexel.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: inline-block;
+
+    &_logo-box {
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+    }
+
+    &_logo {
+        height: 3.5rem;
+    }
+
+    // &_logo-name {
+    //     visibility: hidden;
+    // }
+
+    // &:hover &_logo-name {
+    //     visibility: visible;
+    //     top: 2rem;
+    //     transform: translateY(.5rem);
+    //     transition: 4s;
+    // }
+}

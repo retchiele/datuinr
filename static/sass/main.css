@@ -30,9 +30,33 @@ body {
   background-color: #00ffa2;
   color: #fff; }
 
-* {
-  background: grey;
-  font-family: 'Montserrat', sans-serif; }
+::-webkit-scrollbar {
+  width: .5rem; }
+
+::-webkit-scrollbar-track {
+  background: #e3e3e3; }
+
+::-webkit-scrollbar-thumb {
+  background: #00ffa2; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #2e2e2e; }
+
+.header {
+  height: 85vh;
+  background-image: url(../img/pexel.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  display: inline-block; }
+  .header_logo-box {
+    position: absolute;
+    top: 3rem;
+    left: 3rem; }
+  .header_logo {
+    height: 3.5rem; }
 
 .navigation_checkbox {
   display: none; }
@@ -51,7 +75,7 @@ body {
 .navigation_nav {
   position: fixed;
   top: 5rem;
-  right: 3.5rem;
+  right: 1.75rem;
   opacity: 0;
   transition: transform .8s ease; }
 
@@ -65,8 +89,6 @@ body {
   margin: 1rem; }
 
 .navigation_link:link, .navigation_link:visited {
-  top: 3rem;
-  right: 3rem;
   display: inline-block;
   font-size: 1rem;
   font-weight: 300;
