@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'app',
     'sass_processor',
+    'compressor',
     'django_sass_compiler',
     'django.contrib.admin',
     'django.contrib.auth',
