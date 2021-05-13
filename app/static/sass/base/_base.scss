@@ -6,16 +6,16 @@
     box-sizing: inherit;
 }
 
-// html {
-//     font-size: 62.5%;
-// }
+html {
+    font-size: 93.75%; //1.5rem > 15px/16
+}
 
 body {
     box-sizing: border-box;
 }
 
 ::selection {
-    background-color: $color-primary-light;
+    background-color: $color-primary-mid;
     color: $color-white;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $color-primary-light; 
+    background: $color-secondary-mid; 
 }
 
 //   ::-webkit-scrollbar-thumb:hover {

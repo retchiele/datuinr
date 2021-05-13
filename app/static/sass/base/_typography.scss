@@ -4,3 +4,45 @@ body {
     // line-height: 1.7;
     color: $color-secondary-dark;
 }
+
+.heading-primary {
+    color: $color-secondary-dark;
+    text-transform: lowercase;
+    backface-visibility: hidden;
+    position: relative;
+    top:15rem;
+
+    &--text-first { 
+        display: block;
+        font-size: 6rem;
+        font-weight: 800;
+        letter-spacing: 3/5rem;;
+        -webkit-text-stroke: 1px $color-black;
+        color: transparent;
+        animation-name: appear;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+    }
+    
+    &--text-second { 
+        display: block;
+        font-size: 6rem;
+        font-weight: 800;
+        letter-spacing: 3/5rem;;
+        -webkit-text-stroke: 1px $color-black;
+        color: transparent;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+    }
+    
+    &--text-last { 
+        display: block;
+        font-size: 6rem;
+        font-weight: 800;
+        letter-spacing: 3/5rem;;
+        animation-name: appear;
+        animation-duration: 6s;
+        animation-timing-function: ease;
+    }
+}
