@@ -9,14 +9,14 @@ body {
     color: $color-secondary-dark;
     text-transform: lowercase;
     backface-visibility: hidden;
-    position: relative;
-    top:15rem;
+    // position: relative;
+    // top: 8rem;
+    // left: 5rem;
 
     &--text-first { 
         display: block;
-        font-size: 6rem;
-        font-weight: 800;
-        letter-spacing: 3/5rem;;
+        font-size: 4rem;
+        font-weight: 700;
         -webkit-text-stroke: 1px $color-black;
         color: transparent;
         animation-name: appear;
@@ -26,9 +26,8 @@ body {
     
     &--text-second { 
         display: block;
-        font-size: 6rem;
-        font-weight: 800;
-        letter-spacing: 3/5rem;;
+        font-size: 4rem;
+        font-weight: 600;
         -webkit-text-stroke: 1px $color-black;
         color: transparent;
         animation-name: appear;
@@ -38,9 +37,8 @@ body {
     
     &--text-last { 
         display: block;
-        font-size: 6rem;
-        font-weight: 800;
-        letter-spacing: 3/5rem;;
+        font-size: 4rem;
+        font-weight: 600;
         animation-name: appear;
         animation-duration: 6s;
         animation-timing-function: ease;

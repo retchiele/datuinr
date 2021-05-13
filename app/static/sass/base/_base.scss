@@ -16,7 +16,7 @@ body {
 }
 
 ::selection {
-    background-color: $color-primary-mid;
+    background-color: $color-primary-light;
     color: $color-white;
 }
 
@@ -25,8 +25,8 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $color-secondary-mid; 
-    max-height: 1px;
+    background: $color-primary-light; 
+    border-radius: 6px;
 }
 
 ::-webkit-scrollbar-track {

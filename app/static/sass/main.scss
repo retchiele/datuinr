@@ -9,9 +9,11 @@
 @import "base/utilities";
 
 //components
+@import "components/popup";
 @import "components/projects";
 
 // layout
+@import "layout/footer";
 @import "layout/header";
 @import "layout/navigation";
 

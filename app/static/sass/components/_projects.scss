@@ -1,36 +1,36 @@
 .projects {
-    width:100vh;
-    height:100vw;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-y: visible;
-    overflow-x: hidden;
-    position: absolute;
+    height:100vh;
+    width:100%;
+    // transform: rotate(-90deg) translateX(-100vh);
+    // transform-origin: top left;
+    // overflow-y: visible;
+    // overflow-x: hidden;
+    // position: absolute;
 
 
-    &_inner {
-        display: flex;
-        flex-direction: row;
-        width: 300vw;
-        transform: rotate(90deg) translateY(-100vh);
-        transform-origin: top left;
-    }
+    // &_inner {
+    //     display: flex;
+    //     flex-direction: row;
+    //     width: 300vw;
+    //     transform: rotate(90deg) translateY(-100vh);
+    //     transform-origin: top left;
+    // }
     
-    &_section {
-        height: 100vh;
-        width: 100vw;
-        background-color: yellow;
-    }
+    // &_section {
+    //     height: 100vh;
+    //     width: 100vw;
+    //     background-color: yellow;
+    // }
     
-    &_section:nth-child(2) {
-        height: 100vh;
-        width:100vw;
-        background-color: green;
-    }
+    // &_section:nth-child(2) {
+    //     height: 100vh;
+    //     width:100vw;
+    //     background-color: green;
+    // }
     
-    &_section:nth-child(3) {
-        height: 100vh;
-        width:100vw;
-        background-color: brown;
-    }
+    // &_section:nth-child(3) {
+    //     height: 100vh;
+    //     width:100vw;
+    //     background-color: brown;
+    // }
 }

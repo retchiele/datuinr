@@ -1,25 +1,11 @@
 .header {
     height: 100vh;
-    width: auto;
-    // background-color: red;
-    background-image: url('../img/pexels-lorenzo-242236.jpg');
+    width: 100%;
+    background-color: $color-secondary-light;
+    // background-image: url('../img/pexels-lorenzo-242236.jpg');
     background-size: cover;
     background-position: top;
     position: relative;
     display: inline-block;
     z-index: -1;
-
-    &_logo-box {
-        top: 3rem;
-        left: 3rem;
-        position: absolute;
-    }
-
-    &_logo {
-        height: 3.5rem;
-    }
-    &_hero {
-        width: 100vh;
-    }
-
 }

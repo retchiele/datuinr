@@ -1,0 +1,14 @@
+.footer {
+    position: fixed;
+    bottom: 5rem;
+    left: 5rem;
+
+    a {
+        text-decoration: none;
+        color: $color-secondary-dark;
+
+        &:hover{
+            color: $color-primary-light;
+        }
+    }
+}

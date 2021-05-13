@@ -1,0 +1,63 @@
+.popup {
+    background-color: rgba($color-black, .8);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+    transition: all .3s;
+    
+    @supports(-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba($color-black, .6);
+    }
+    
+    &_content{
+        @include center-hor-ver;
+        padding: 5rem;
+        height: 50%;
+        width: 50%;
+        background-color: $color-white;
+        box-shadow: 0 2rem 4rem rgba($color-black, .3);
+        border-radius: 6px;
+        overflow: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(.5);
+        transition: all .4s .2s;
+    }
+
+    //open states
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &:target &_content {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    &_close {
+        &:link,
+        &:visited {
+            color: $color-secondary-dark;
+            display:inline-block;
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            font-size: 3rem;
+            font-weight: 200;
+            text-decoration: none;
+            transition: all .2s;
+        }
+
+        &:hover {
+            color: $color-primary-light;
+        }
+    }
+
+}
