@@ -3,11 +3,12 @@
 *::after {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
     font-size: 93.75%; //1.5rem > 15px/16
+    scroll-behavior: smooth;
 }
 
 body {
@@ -23,14 +24,11 @@ body {
     width: .5rem;
 }
 
-::-webkit-scrollbar-track {
-    background: $color-secondary-light; 
-}
-
 ::-webkit-scrollbar-thumb {
     background: $color-secondary-mid; 
+    max-height: 1px;
 }
 
-//   ::-webkit-scrollbar-thumb:hover {
-//     background: #555; 
-//   }
+::-webkit-scrollbar-track {
+    background: $color-white; 
+}
