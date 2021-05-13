@@ -1,5 +1,4 @@
 .navigation {
-    z-index:1000;
     &_logo-box {
         top: 5rem;
         left: 5rem;
@@ -32,6 +31,7 @@
     }
     
     &_nav {
+        z-index: 1999;
         position: fixed;
         top: 6rem;
         right: 3rem;

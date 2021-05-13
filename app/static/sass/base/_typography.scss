@@ -6,41 +6,56 @@ body {
 }
 
 .heading-primary {
-    color: $color-secondary-dark;
     text-transform: lowercase;
-    backface-visibility: hidden;
-    // position: relative;
-    // top: 8rem;
-    // left: 5rem;
-
-    &--text-first { 
-        display: block;
-        font-size: 4rem;
-        font-weight: 700;
-        -webkit-text-stroke: 1px $color-black;
-        color: transparent;
-        animation-name: appear;
-        animation-duration: 2s;
-        animation-timing-function: ease;
-    }
-    
-    &--text-second { 
-        display: block;
-        font-size: 4rem;
-        font-weight: 600;
-        -webkit-text-stroke: 1px $color-black;
-        color: transparent;
-        animation-name: appear;
-        animation-duration: 4s;
-        animation-timing-function: ease;
-    }
-    
-    &--text-last { 
-        display: block;
-        font-size: 4rem;
-        font-weight: 600;
-        animation-name: appear;
-        animation-duration: 6s;
-        animation-timing-function: ease;
-    }
+    position: absolute;
+    font-size: 8rem;
+    font-weight: 700;
+    color: $color-secondary-dark;
+    animation-name: appear;
+    animation-duration: 6s;
+    animation-timing-function: ease;
 }
+
+.heading-secondary {
+    text-transform: lowercase;
+    position: absolute;
+    top: 6.25rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $color-primary-light;
+    animation-name: appear;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+
+}
+
+    // &--text-first { 
+    //     display: block;
+    //     font-size: 4rem;
+    //     font-weight: 700;
+    //     -webkit-text-stroke: 1px $color-black;
+    //     color: transparent;
+    //     animation-name: appear;
+    //     animation-duration: 2s;
+    //     animation-timing-function: ease;
+    // }
+    
+    // &--text-second { 
+    //     display: block;
+    //     font-size: 4rem;
+    //     font-weight: 600;
+    //     -webkit-text-stroke: 1px $color-black;
+    //     color: transparent;
+    //     animation-name: appear;
+    //     animation-duration: 4s;
+    //     animation-timing-function: ease;
+    // }
+    
+    // &--text-last { 
+    //     display: block;
+    //     font-size: 6rem;
+    //     font-weight: 600;
+    //     animation-name: appear;
+    //     animation-duration: 6s;
+    //     animation-timing-function: ease;
+    // }
