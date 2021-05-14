@@ -11,6 +11,23 @@ html {
     scroll-behavior: smooth;
 }
 
+a, a:link {
+    color: $color-secondary-dark;
+    text-decoration: none;
+}
+
+a:visited{
+    color: $color-secondary-dark;
+}
+
+a:hover{
+    color: $color-primary-light;
+}
+
+a:active{
+    color: $color-secondary-mid;
+}
+
 body {
     box-sizing: border-box;
 }
@@ -26,7 +43,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $color-primary-light; 
+    background: linear-gradient($color-primary-light, $color-primary-mid); 
     border-radius: 6px;
 }
 

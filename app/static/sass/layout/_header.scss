@@ -5,27 +5,27 @@
     z-index: 1;
 }
 
-.number {
-    position: relative;
-    top: 10rem;
-    left: 19rem;
-    // transform: rotate(-90deg)
+// .number {
+//     position: relative;
+//     top: 10rem;
+//     left: 19rem;
+//     // transform: rotate(-90deg)
 
-    &_dash {
-        position: relative;
-        top: 3rem;
-        left: -6.5rem;
-        width: 5rem;
-        height: 1.25px;
-        display: inline-block;
-        background-color: $color-primary-dark;
-    }
+//     &_dash {
+//         position: relative;
+//         top: 3rem;
+//         left: -6.5rem;
+//         width: 5rem;
+//         height: 1.25px;
+//         display: inline-block;
+//         background-color: $color-primary-dark;
+//     }
     
-    &_no {
-        position: relative;
-        top: 2.5rem;
-        left: -6rem;
-        display: inline-block;
-        color: $color-secondary-mid;
-    }
-}
+//     &_no {
+//         position: relative;
+//         top: 2.5rem;
+//         left: -6rem;
+//         display: inline-block;
+//         color: $color-secondary-mid;
+//     }
+// }

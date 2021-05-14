@@ -8,22 +8,40 @@ body {
 .heading-primary {
     text-transform: lowercase;
     position: absolute;
+    top: 10rem;
     font-size: 8rem;
     font-weight: 700;
     color: $color-secondary-dark;
-    animation-name: appear;
+    // animation-name: appear;
     animation-duration: 6s;
     animation-timing-function: ease;
+
+    &:hover {
+        // transform:scale(1.5);
+        transform: translateY(-.5rem);
+    }
+}
+
+.heading-link {
+    color: $color-secondary-dark;
+    text-decoration: none;
+    
+    &:hover,
+    &:focus {
+        color: $color-primary-light;
+    }
 }
 
 .heading-secondary {
     text-transform: lowercase;
     position: absolute;
-    top: 6.25rem;
+    top: 18.25rem;
     font-size: 2rem;
     font-weight: 700;
-    color: $color-primary-light;
-    animation-name: appear;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-mid);
+    -webkit-background-clip: text;
+    color: transparent; 
+    // animation-name: appear;
     animation-duration: 6s;
     animation-timing-function: ease;
 

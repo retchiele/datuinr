@@ -130,3 +130,44 @@
         transform: rotate(-135deg);
     }
 }
+
+.about {
+    &_nav {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        list-style: none;
+        text-align: center;
+    }
+
+    &_item {
+        margin: 1rem;
+        display: inline;
+    }
+
+    &_link {
+        &:link,
+        &:visited {
+            display: inline-block;
+            font-size: 1.5rem;
+            font-weight: 700;
+            padding: .25rem 1rem;
+            color: $color-white;
+            text-decoration: none;
+            text-transform: lowercase;
+            transition: all .4s;
+
+            span {
+                margin-right: 1.5rem;
+                display: inline-block;
+            }
+        }
+
+        &:hover,
+        &:active {
+            color: $color-primary-light;
+            transform: translateY(-.25rem);
+        }
+    }
+}
