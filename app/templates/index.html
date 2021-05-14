@@ -110,13 +110,8 @@
     <section class="section-about" id="about">     
         <ul class="about_nav">
             <li class="about_item">
-                <a href="https://drive.google.com/file/d/1gjRqtz4CSrrsxjv-dqhSlglOV8gXlGFu/view?usp=sharing" 
-                class="about_link">resume</a>
-            </li>
-            <li class="about_item">·</li>
-            <li class="about_item">
-                <a href="https://linkedin.com/in/datuinr" 
-                class="about_link">linkedin</a>
+                <a href="#popup" 
+                class="about_link">contact</a>
             </li>
             <li class="about_item">·</li>
             <li class="about_item">
@@ -125,8 +120,13 @@
             </li>
             <li class="about_item">·</li>
             <li class="about_item">
-                <a href="#popup" 
-                class="about_link">contact</a>
+                <a href="https://linkedin.com/in/datuinr" 
+                class="about_link">linkedin</a>
+            </li>
+            <li class="about_item">·</li>
+            <li class="about_item">
+                <a href="https://drive.google.com/file/d/1gjRqtz4CSrrsxjv-dqhSlglOV8gXlGFu/view?usp=sharing" 
+                class="about_link">resume</a>
             </li>
         </ul>
     </section>
@@ -140,11 +140,33 @@
     <div class="popup" id="popup">
         <div class="popup_content">
             <a href="#about" class="popup_close">&times;</a>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem non hic qui ipsam explicabo incidunt quas veniam, quisquam, ex similique consequatur nisi itaque? Soluta recusandae voluptas qui cum et in?
+            <form action="#" class="form">
+                <div class="contact_header">
+                    <h2 class="heading-tertiary">
+                        contact
+                    </h2>
+                </div>
 
-                <b> </b>
-            </p>
-            </div>
+                <div class="form_group">
+                    <input type="text" class="form_input" placeholder=" Name" id="name" required>
+                    <label for="name" class="form_label"> Name</label>
+                </div>
+                <div class="form_group">
+                    <input type="email" class="form_input" placeholder="Email Address" id="email" required>
+                    <label for="email" class="form_label"> Email Address</label>
+                </div>
+                <div class="form_group">
+                    <input type="text" class="form_input" placeholder="Subject" id="subject" required>
+                    <label for="subject" class="form_label"> Subject</label>
+                </div>
+                <div class="form_group">
+                    <input type="text" class="form_input" placeholder="Message" id="message" required>
+                    <label for="message" class="form_label"> Message</label>
+                </div>
+                <div class="form_group">
+                    <button class="btn">Send it</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>
