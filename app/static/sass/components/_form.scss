@@ -1,0 +1,16 @@
+.form {
+    background-color: grey;
+
+    &_input {
+        font-size: 1.5rem;
+        font-family: inherit;
+        color: inherit;
+        border-radius: 2px;
+        border: none;
+        border-bottom: 3px solid transparent;
+        width: 75%;
+        display: block;
+        padding: 1.5rem 2 rem;
+        background-color: rgba($color-black, .5);
+    }
+}
